@@ -1,0 +1,22 @@
+
+body{
+    background-color: black;
+}
+
+#box{
+    padding-top: 35px;
+    padding-left: 85px;
+    padding-right: 0px;
+    background-color:white;
+    border-radius: 1px;
+    border-style: solid;
+    padding-bottom: 35px;
+    position: relative;
+    width: 450px;
+    position:relative;left: 475px;
+    border-radius: 25px;
+    align-items: center;
+}
+#center{
+    text-align: center;
+}

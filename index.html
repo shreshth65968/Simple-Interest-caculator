@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Web App &ndash; Simple Interest Calculator</title>
+
+<body>
+
+<div id="box">
+<p id="center">
+<h1>Simple Interest Calculator</h1>
+Principle amount: <input type="text" id="principle"><br>
+<br>
+<br>
+Rate of interest: <input type="range" min="1" max="20" oninput="this.nextElementSibling.value = this.value" step="0.05" id="rt" >
+<output></output>%
+<br>
+<br>
+<br>
+<br>
+Time: <label for="years">select number of years</label>
+<select name="1" id="years">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+<br>
+<br>
+<button type="submit" onclick="submit()">Compute Interest</button>
+<br>
+<br>
+<br>
+</p>
+<h3>Output</h3>
+<p id="result">
+
+</p>
+
+&#169; Everyone Can Get Rich <br>
+this calculator belongs to <b>Shreshth</b> 
+</div>
+</body>
+</html>
