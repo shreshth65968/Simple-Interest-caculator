@@ -14,17 +14,17 @@
 
 <div id="box">
 <p id="center">
-<h1>Simple Interest Calculator</h1>
-Principle amount: <input type="text" id="principle"><br>
+<h1 id="head">Simple Interest Calculator</h1>
+<p id="principleo">Principle amount: <input type="text" id="principle"><br></p>
 <br>
 <br>
-Rate of interest: <input type="range" min="1" max="20" oninput="this.nextElementSibling.value = this.value" step="0.05" id="rt" >
-<output></output>%
+<p id="rt1" >Rate of interest: <input type="range" min="1" max="20" oninput="this.nextElementSibling.value = this.value" step="0.05" id="rt" >
+<output></output>%</p>
 <br>
 <br>
 <br>
 <br>
-Time: <label for="years">select number of years</label>
+ <label for="years" id="select">Time:&nbsp;&nbsp;&nbsp;select number of years</label>
 <select name="1" id="years">
     <option value="1">1</option>
     <option value="2">2</option>
@@ -44,13 +44,14 @@ Time: <label for="years">select number of years</label>
 <br>
 <br>
 </p>
-<h3>Output</h3>
+
 <p id="result">
+  
 
 </p>
 
-&#169; Everyone Can Get Rich <br>
-this calculator belongs to <b>Shreshth</b> 
+
+<p id="end">this calculator belongs to <b>Shreshth</b> </p>
 </div>
 </body>
 </html>
