@@ -1,8 +1,13 @@
-# Simple-Interest-Calculator
-simple interest calculator built with HTML,CSS and javascript
-just enter the amount, interest rate and the time and click the compute interest button and interest will be computed
+## Simple-Interest-Calculator
+
+- simple interest calculator built with HTML,CSS and javascript
+just enter the amount,
+- interest rate and the time and click the compute interest button and interest will be computed
+
+  
+![1](https://github.com/shreshth65968/Simple-Interest-caculator/assets/96594936/11be7ce7-11c7-4d30-bcf3-f96527af6071)
 
 
 
-![Screenshot 2023-08-17 170921](https://github.com/shreshth3142857/Simple-Interest-Website/assets/96594936/99a5ba8d-542a-4344-b455-87fd430928f3)
-![Screenshot 2023-08-17 170947](https://github.com/shreshth3142857/Simple-Interest-Website/assets/96594936/9b395212-36bd-4739-a0bf-fdeadc197ef8)
+![2](https://github.com/shreshth65968/Simple-Interest-caculator/assets/96594936/878089dd-74e7-4657-804b-cc42aa054384)
+
